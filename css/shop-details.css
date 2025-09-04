@@ -11,6 +11,171 @@
     color: #3D3D3D;
     text-decoration: none; }
 
+.great_section {
+  padding: 100px 0; }
+  @media only screen and (max-width: 992px) {
+    .great_section {
+      padding: 0; } }
+  .great_section .heading_tag {
+    z-index: 1;
+    position: relative;
+    display: inline-block; }
+    @media only screen and (max-width: 992px) {
+      .great_section .heading_tag {
+        padding-bottom: 0; } }
+    .great_section .heading_tag h2 {
+      font-weight: 400;
+      font-family: var(--font_secondary);
+      font-size: 64px;
+      line-height: 1; }
+      @media only screen and (max-width: 767px) {
+        .great_section .heading_tag h2 {
+          font-size: 32px;
+          line-height: 1.2; } }
+      .great_section .heading_tag h2 span {
+        display: block;
+        font-size: 44px;
+        font-family: var(--font_primary); }
+        @media only screen and (max-width: 767px) {
+          .great_section .heading_tag h2 span {
+            font-size: 28px;
+            display: inherit; } }
+    .great_section .heading_tag .arrows {
+      top: -20px;
+      right: 0;
+      z-index: 1;
+      position: absolute;
+      transform: translateX(100%); }
+      @media only screen and (max-width: 992px) {
+        .great_section .heading_tag .arrows {
+          top: 10px; } }
+  @media only screen and (min-width: 992px) {
+    .great_section .center_box_top {
+      display: none; } }
+  .great_section .center_box_top img {
+    margin: auto; }
+  .great_section .great_wrapper {
+    display: flex;
+    grid-gap: 10px;
+    align-items: center;
+    position: relative;
+    justify-content: space-between; }
+    @media only screen and (max-width: 767px) {
+      .great_section .great_wrapper {
+        flex-wrap: wrap; } }
+    .great_section .great_wrapper .left_box {
+      width: 35%;
+      display: flex;
+      grid-gap: 10px; }
+      @media only screen and (max-width: 767px) {
+        .great_section .great_wrapper .left_box {
+          width: 100%; } }
+      @media (min-width: 768px) and (max-width: 991px) {
+        .great_section .great_wrapper .left_box {
+          width: 50%; } }
+      .great_section .great_wrapper .left_box .box {
+        height: 200px;
+        padding: 20px;
+        border-radius: 8px;
+        display: flex;
+        flex-wrap: wrap;
+        grid-gap: 60px;
+        width: 190px;
+        align-items: self-end;
+        background-color: #EFF5EB; }
+        @media only screen and (max-width: 767px) {
+          .great_section .great_wrapper .left_box .box {
+            height: auto;
+            padding: 10px;
+            width: 48.4%;
+            display: inline-block;
+            grid-gap: inherit;
+            min-height: 150px;
+            align-items: flex-start; } }
+        .great_section .great_wrapper .left_box .box h6 {
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 1.4;
+          font-family: var(--font_primary); }
+          @media only screen and (max-width: 767px) {
+            .great_section .great_wrapper .left_box .box h6 {
+              font-size: 14px; } }
+        .great_section .great_wrapper .left_box .box .img_box {
+          width: 100%; }
+          @media (min-width: 992px) and (max-width: 1200px) {
+            .great_section .great_wrapper .left_box .box .img_box {
+              padding-top: 0; } }
+        .great_section .great_wrapper .left_box .box .text_box {
+          width: 100%; }
+          @media only screen and (max-width: 767px) {
+            .great_section .great_wrapper .left_box .box .text_box {
+              min-height: 70px;
+              display: flex;
+              align-items: flex-end; } }
+    .great_section .great_wrapper .center_box {
+      top: 50%;
+      left: 47%;
+      position: absolute;
+      width: 40%;
+      transform: translate(-50%, -50%); }
+      @media only screen and (max-width: 992px) {
+        .great_section .great_wrapper .center_box {
+          top: inherit;
+          left: inherit;
+          position: inherit;
+          width: 100%;
+          transform: none;
+          display: none; } }
+    .great_section .great_wrapper .right_box {
+      width: 35%;
+      display: flex;
+      grid-gap: 10px; }
+      @media only screen and (max-width: 767px) {
+        .great_section .great_wrapper .right_box {
+          width: 100%; } }
+      @media (min-width: 768px) and (max-width: 991px) {
+        .great_section .great_wrapper .right_box {
+          width: 50%; } }
+      .great_section .great_wrapper .right_box .box {
+        height: 200px;
+        padding: 20px;
+        border-radius: 8px;
+        display: flex;
+        flex-wrap: wrap;
+        grid-gap: 60px;
+        width: 190px;
+        align-items: self-end;
+        background-color: #EFF5EB; }
+        @media only screen and (max-width: 767px) {
+          .great_section .great_wrapper .right_box .box {
+            height: auto;
+            padding: 10px;
+            width: 48.4%;
+            display: inline-block;
+            grid-gap: inherit;
+            min-height: 150px;
+            align-items: flex-start; } }
+        .great_section .great_wrapper .right_box .box h6 {
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 1.4;
+          font-family: var(--font_primary); }
+          @media only screen and (max-width: 767px) {
+            .great_section .great_wrapper .right_box .box h6 {
+              font-size: 14px; } }
+        .great_section .great_wrapper .right_box .box .img_box {
+          width: 100%; }
+          @media (min-width: 992px) and (max-width: 1200px) {
+            .great_section .great_wrapper .right_box .box .img_box {
+              padding-top: 0; } }
+        .great_section .great_wrapper .right_box .box .text_box {
+          width: 100%; }
+          @media only screen and (max-width: 767px) {
+            .great_section .great_wrapper .right_box .box .text_box {
+              min-height: 70px;
+              display: flex;
+              align-items: flex-end; } }
+
 .a_plus_section img {
   width: 100%;
   border-radius: 20px; }
